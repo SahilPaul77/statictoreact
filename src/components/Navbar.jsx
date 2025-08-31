@@ -62,17 +62,6 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {/* Mobile Hamburger */}
-<div className="md:hidden">
-  <button
-    onClick={() => setMenuOpen(!menuOpen)}
-    className="focus:outline-none"
-  >
-    {menuOpen ? <X size={28} /> : <Menu size={28} />}
-  </button>
-</div>
-
     </nav>
   );
 };
